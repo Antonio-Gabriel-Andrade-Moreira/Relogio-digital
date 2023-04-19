@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', monospace;
+}
+
+.data-container {
+  display: flex;
+  color: #fff;
+  font-size: 1.2rem;
+  background: rgba(0, 0, 0, .80);
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.data-container .dia::after {
+  content: "/";
+  color: #d4af37;
+}
+
+.data-container .mes::after {
+  content: "/";
+  color: #d4af37;
+}
+
+.bg {
+  display: flex;
+  gap: 20px;
+  width: 550px;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(./imagen/bg5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.container-relogio div, span {
+  color: #fff;
+}
+
+.container-relogio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, .80);
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.container-relogio div {
+  font-size: 3.5rem;
+}
+
+.container-relogio span {
+  /* margin-top: 1.5rem; */
+  color: #d4af37;
+}
+
+.container-relogio span::before {
+  content: '↑';
+  display: block;
+  text-align: center;
+}
+
+.dia {
+  margin-left: 10px;
+}
+
+.ano {
+  margin-right: 10px;
+}
+
+.semana {
+  color: #d4af37;
+  
+}
+
+
+
+
+
+
+
+
